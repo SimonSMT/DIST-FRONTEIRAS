@@ -8,14 +8,9 @@
             "id": "fronteiras-cobblemon",
             "name": "Fronteiras Cobblemon",
             "description": "Servidor de Cobblemon no Brasil",
-            "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/fronteiras-cobblemon.png",
-            "version": "1.0.0",
+            "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/icon.png",
             "address": "fc.enxada.host",
-            "minecraftVersion": "1.21.1",
-            "discord": {
-                "shortId": "Cobblemon",
-                "largeImageText": "Cobblemon 1.21.1",
-                "largeImageKey": "cobblemon"
+            "minecraftVersion": "1.21.1"
             },
             "mainServer": true,
             "autoconnect": true,
@@ -61,3 +56,4 @@
         }
     ]
 }
+
