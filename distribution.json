@@ -55,7 +55,7 @@
                         "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar"
                         
                     }
-                },
+                }
                 {
                     "id": "com.cobblemon:cobblemon:1.6.1+1.21.1",
                     "name": "cobblemon",
@@ -70,6 +70,7 @@
         }
     ]
 }
+
 
 
 
