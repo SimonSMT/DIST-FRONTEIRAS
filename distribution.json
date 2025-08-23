@@ -45,13 +45,14 @@
                     ]
                 },
                 {
-                    "id": "net.fabricmc:fabric-api:0.103.0+1.21.1",
+                    "id": "net.fabricmc:fabric-api:0.116.4+1.21.1",
                     "name": "fabric-api",
                     "type": "FabricMod", 
                     "artifact": {
-                        "size": 298153,
-                        "MD5": "A38FDAC381645D86B4E0011FAA91E672",
-                        "url": "https://cdn.modrinth.com/data/b313lC4Y/versions/dYzIIsk2/mod_sets-0.11.0.jar"
+                        "size": 2423497,
+                        "MD5": "AA1660D1AF25EB18790182753F977615",
+                        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar"
+                        
                     }
                 },
                 {
@@ -68,4 +69,5 @@
         }
     ]
 }
+
 
