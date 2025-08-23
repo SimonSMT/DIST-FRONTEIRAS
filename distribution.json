@@ -13,8 +13,8 @@
         {
             "id": "fronteiras-cobblemon",
             "name": "Fronteiras Cobblemon",
-            "description": "SEXO",
-            "icon": "https://github.com/SimonSMT/DIST-FRONTEIRAS/fronteiras-cobblemon.png",
+            "description": "Servidor de Cobblemon no Brasil",
+            "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/fronteiras-cobblemon.png",
             "version": "1.0.0",
             "address": "fc.enxada.host",
             "minecraftVersion": "1.21.1",
@@ -28,42 +28,42 @@
             "modules": [
                 {
                     "id": "net.fabricmc:fabric-loader:0.16.12",
-                    "name": "Fabric Loader",
+                    "name": "fabric-loader",
                     "type": "Library",
                     "artifact": {
-                        "size": 1500000,
-                        "MD5": "dummy-md5-loader",
+                        "size": 1387601,
+                        "MD5": "E462A4911469A9816029B95EAAE5BDB0",
                         "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
                     },
                     "subModules": [
                         {
-                            "id": "net.fabricmc:intermediary:1.21.1",
-                            "name": "Intermediary Mappings",
+                            "id": "maven.modrinth:fabric-api:0.116.3+1.21.1",
+                            "name": "fabric-api",
                             "type": "Library",
                             "artifact": {
-                                "size": 300000,
-                                "MD5": "dummy-md5-mappings",
-                                "url": "https://maven.fabricmc.net/net/fabricmc/intermediary/1.21.1/intermediary-1.21.1-v2.jar"
+                                "size": 2417666,
+                                "MD5": "3691ACE93A716E3798A2D5C6FB3053F6",
+                                "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/jCGlnFJS/fabric-api-0.116.3%2B1.21.1.jar"
                             }
                         },
                         {
-                            "id": "net.fabricmc:fabric-api:0.103.0+1.21.1",
-                            "name": "Fabric API",
+                            "id": "maven.modrinth:mod_sets:0.11.0",
+                            "name": "mod_sets",
                             "type": "Library",
                             "artifact": {
-                                "size": 4500000,
-                                "MD5": "dummy-md5-fapi",
-                                "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/latest/fabric-api-0.103.0+1.21.1.jar"
+                                "size": 298153,
+                                "MD5": "A38FDAC381645D86B4E0011FAA91E672",
+                                "url": "https://cdn.modrinth.com/data/b313lC4Y/versions/dYzIIsk2/mod_sets-0.11.0.jar"
                             }
                         },
                         {
-                            "id": "com.cobblemon:cobblemon:1.6.1+1.21.1",
-                            "name": "Cobblemon",
+                            "id": "maven.modrinth:cobblemon:1.6.1+1.21.1",
+                            "name": "cobblemon",
                             "type": "Library",
                             "artifact": {
-                                "size": 80000000,
-                                "MD5": "dummy-md5-cobblemon",
-                                "url": "https://cdn.modrinth.com/data/qZ8Z7XzS/versions/latest/cobblemon-fabric-1.6.1+1.21.1.jar"
+                                "size": 120710175,
+                                "MD5": "CEFE6AB687C39E1A7FE9B2BF96B09188",
+                                "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar"
                             }
                         }
                     ]
@@ -72,4 +72,5 @@
         }
     ]
 }
+
 
