@@ -1,60 +1,50 @@
 {
     "version": "1.0.0",
-    "java": {
-        "oracle": "https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html"
-    },
+    "discord": {},
     "servers": [
         {
             "id": "fronteiras-cobblemon",
             "name": "Fronteiras Cobblemon",
-            "description": "Servidor de Cobblemon no Brasil",
+            "description": "Servidor de Cobblemon Brasileiro",
             "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/fronteiras-cobblemon.png",
+            "version": "0.0.1",
             "address": "fc.enxada.host",
-            "minecraftVersion": "1.21.1"
-            },
+            "minecraftVersion": "1.21.1",
+            "discord": {},
             "mainServer": true,
             "autoconnect": true,
             "modules": [
                 {
-                    "id": "net.fabricmc:fabric-loader:0.16.12",
-                    "name": "Fabric Loader",
-                    "name": "fabric-loader",
-                    "type": "Library",
-                    "artifact": {
-                        "size": 1387601,
-                        "MD5": "E462A4911469A9816029B95EAAE5BDB0",
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
-                    },
-                    "subModules": [
-                        {
+                            "id": "net.fabricmc:fabric-loader:0.16.12",
+                            "name": "fabric-loader",
+                            "type": "required",
+                            "artifact": {
+                                "size": 1387601,
+                                "MD5": "E462A4911469A9816029B95EAAE5BDB0",
+                                "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
+                            }
+                },
+                {
                             "id": "net.fabricmc:fabric-api:0.103.0+1.21.1",
-                            "name": "Fabric API",
-                            "id": "maven.modrinth:mod_sets:0.11.0",
-                            "name": "mod_sets",
-                            "type": "Library",
+                            "name": "fabric-api",
+                            "type": "required",
                             "artifact": {
                                 "size": 298153,
                                 "MD5": "A38FDAC381645D86B4E0011FAA91E672",
                                 "url": "https://cdn.modrinth.com/data/b313lC4Y/versions/dYzIIsk2/mod_sets-0.11.0.jar"
                             }
-                        },
-                        {
+                },
+                {
                             "id": "com.cobblemon:cobblemon:1.6.1+1.21.1",
-                            "name": "Cobblemon",
-                            "id": "maven.modrinth:cobblemon:1.6.1+1.21.1",
                             "name": "cobblemon",
-                            "type": "Library",
+                            "type": "required",
                             "artifact": {
                                 "size": 120710175,
                                 "MD5": "CEFE6AB687C39E1A7FE9B2BF96B09188",
                                 "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar"
                             }
-                        }
-                    ]
                 }
             ]
         }
     ]
 }
-
-
