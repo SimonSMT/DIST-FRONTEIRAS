@@ -1,41 +1,63 @@
 {
-  "version": "1.0.0",
-  "servers": [
-    {
-      "id": "fronteiras-cobblemon",
-      "name": "Fronteiras Cobblemon",
-      "description": "Servidor oficial de Cobblemon",
-      "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/icon.png",
-      "version": "1.21.1",
-      "address": "fc.enxada.host",
-      "mainServer": true,
-      "autoconnect": true,
-      "minecraftVersion": "1.21.1",
-      "modLoaders": [
+    "version": "1.0.0",
+    "java": {
+        "oracle": "https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html"
+    },
+    "servers": [
         {
-          "id": "fabric-loader-0.16.12-1.21.1",
-          "type": "fabric"
+            "id": "fronteiras-cobblemon",
+            "name": "Fronteiras Cobblemon",
+            "description": "Servidor de Cobblemon no Brasil",
+            "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/fronteiras-cobblemon.png",
+            "version": "1.0.0",
+            "address": "fc.enxada.host",
+            "minecraftVersion": "1.21.1",
+            "discord": {
+                "shortId": "Cobblemon",
+                "largeImageText": "Cobblemon 1.21.1",
+                "largeImageKey": "cobblemon"
+            },
+            "mainServer": true,
+            "autoconnect": true,
+            "modules": [
+                {
+                    "id": "net.fabricmc:fabric-loader:0.16.12",
+                    "name": "Fabric Loader",
+                    "name": "fabric-loader",
+                    "type": "Library",
+                    "artifact": {
+                        "size": 1387601,
+                        "MD5": "E462A4911469A9816029B95EAAE5BDB0",
+                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.fabricmc:fabric-api:0.103.0+1.21.1",
+                            "name": "Fabric API",
+                            "id": "maven.modrinth:mod_sets:0.11.0",
+                            "name": "mod_sets",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 298153,
+                                "MD5": "A38FDAC381645D86B4E0011FAA91E672",
+                                "url": "https://cdn.modrinth.com/data/b313lC4Y/versions/dYzIIsk2/mod_sets-0.11.0.jar"
+                            }
+                        },
+                        {
+                            "id": "com.cobblemon:cobblemon:1.6.1+1.21.1",
+                            "name": "Cobblemon",
+                            "id": "maven.modrinth:cobblemon:1.6.1+1.21.1",
+                            "name": "cobblemon",
+                            "type": "Library",
+                            "artifact": {
+                                "size": 120710175,
+                                "MD5": "CEFE6AB687C39E1A7FE9B2BF96B09188",
+                                "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar"
+                            }
+                        }
+                    ]
+                }
+            ]
         }
-      ],
-      "mods": [
-        {
-          "id": "maven.modrinth:fabric-api:0.116.3+1.21.1",
-          "name": "fabric-api",
-          "version": "0.116.3+1.21.1",
-          "type": "required",
-          "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/jCGlnFJS/fabric-api-0.116.3%2B1.21.1.jar",
-          "sha1": "3691ACE93A716E3798A2D5C6FB3053F6"
-        },
-        {
-          "id": "maven.modrinth:cobblemon:1.6.1+1.21.1",
-          "name": "cobblemon",
-          "version": "1.6.1+1.21.1",
-          "type": "required",
-          "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar",
-          "sha1": "CEFE6AB687C39E1A7FE9B2BF96B09188"
-        }
-      ]
-    }
-  ]
+    ]
 }
-
