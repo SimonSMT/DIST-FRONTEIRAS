@@ -13,6 +13,14 @@
             "discord": {},
             "mainServer": true,
             "autoconnect": true,
+            "javaOptions": {
+                "supported": ">=17",
+                "suggestedMajor": 21,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
             "modules": [
                 {
                     "id": "net.fabricmc:fabric-loader:0.16.12",
@@ -60,3 +68,4 @@
         }
     ]
 }
+
