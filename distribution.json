@@ -1,8 +1,5 @@
 {
   "version": "1.0.0",
-  "java": {
-        "oracle": "https://www.oracle.com/java/technologies/javase/jdk21-archive-downloads.html"
-       },
   "servers": [
     {
       "id": "fronteiras-cobblemon",
@@ -41,3 +38,4 @@
     }
   ]
 }
+
