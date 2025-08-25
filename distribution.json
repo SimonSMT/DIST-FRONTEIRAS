@@ -15,7 +15,7 @@
         {
           "id": "fabric-0.15.7+1.21.1",
           "name": "Fabric Loader",
-          "type": "ModLoader",
+          "type": "Fabric",
           "artifact": {
             "size": 1327275,
             "MD5": "13832fed8b4ba82a4dd000b4c4b2e429",
@@ -56,3 +56,4 @@
     }
   ]
 }
+
