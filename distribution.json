@@ -28,7 +28,7 @@
           }
         },
         {
-          "id": "fabric-api-0.116.5+1.21.1",
+          "id": "fabric-api-0.116.5",
           "name": "Fabric API 0.116.5+1.21.1",
           "type": "FabricMod",
           "artifact": {
@@ -38,7 +38,7 @@
           }
         },
         {
-          "id": "cobblemon-1.6.1+1.21.1",
+          "id": "cobblemon-1.6.1",
           "name": "Cobblemon",
           "type": "FabricMod",
           "artifact": {
@@ -48,7 +48,7 @@
           }
         },
         {
-          "id": "cobblemon-mega-showdown-10.0.7-release-fabric",
+          "id": "cobblemon-mega-showdown-10.0.7",
           "name": "Cobblemon: Mega Showdown",
           "type": "FabricMod",
           "artifact": {
