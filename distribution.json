@@ -1,77 +1,60 @@
 {
-    "version": "1.0.0",
-    "discord": {},
-    "servers": [
+  "version": "1.0.0",
+  "servers": [
+    {
+      "id": "fronteiras-cobblemon-fabric-1.21.1",
+      "name": "Fronteiras Cobblemon",
+      "description": "Servidor Fronteiras Cobblemon =D",
+      "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/fronteiras-cobblemon.png",
+      "version": "1.0.0",
+      "address": "fc.enxada.host",
+      "minecraftVersion": "1.21.1",
+      "mainServer": true,
+      "autoconnect": false,
+      "modules": [
         {
-            "id": "fronteiras-cobblemon",
-            "name": "Fronteiras Cobblemon",
-            "description": "Servidor de Cobblemon Brasileiro",
-            "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/fronteiras-cobblemon.png",
-            "version": "0.0.1",
-            "address": "fc.enxada.host",
-            "minecraftVersion": "1.21.1",
-            "discord": {},
-            "mainServer": true,
-            "autoconnect": true,
-            "javaOptions": {
-                "supported": ">=17",
-                "suggestedMajor": 21,
-                "ram": {
-                    "recommended": 4096,
-                    "minimum": 2048
-                },
-                "jvm": []
-            },
-            "modules": [
-                {
-                    "id": "net.fabricmc:fabric-loader:0.16.12",
-                    "name": "fabric-loader",
-                    "type": "Fabric", 
-                    "artifact": {
-                        "size": 1387601,
-                        "MD5": "E462A4911469A9816029B95EAAE5BDB0",
-                        "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
-                    },
-                    "subModules": [
-                        {
-                            "id": "1.21.1-fabric-0.16.12",
-                            "name": "Fabric Version Manifest",
-                            "type": "VersionManifest",
-                            "artifact": {
-                                "size": 4252, 
-                                "MD5": "352AE99AA5D1E47D784440B97D5D8FBD", 
-                                "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.json"
-                            }
-                        }
-                    ]
-                },
-                {
-                    "id": "net.fabricmc:fabric-api:0.116.4+1.21.1",
-                    "name": "fabric-api",
-                    "type": "FabricMod", 
-                    "artifact": {
-                        "size": 2423497,
-                        "MD5": "AA1660D1AF25EB18790182753F977615",
-                        "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar"
-                        
-                    }
-                }
-                {
-                    "id": "com.cobblemon:cobblemon:1.6.1+1.21.1",
-                    "name": "cobblemon",
-                    "type": "FabricMod", 
-                    "artifact": {
-                        "size": 120710175,
-                        "MD5": "CEFE6AB687C39E1A7FE9B2BF96B09188",
-                        "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar"
-                    }
-                }
-            ]
+          "id": "net.fabricmc:fabric-loader:0.15.7",
+          "name": "Fabric Loader",
+          "type": "FabricLoader",
+          "classpath": false,
+          "artifact": {
+            "size": 1327275,
+            "MD5": "13832fed8b4ba82a4dd000b4c4b2e429",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.7/fabric-loader-0.15.7.jar"
+          }
+        },
+        {
+          "id": "net.fabricmc:fabric-api:0.116.5+1.21.1",
+          "name": "Fabric API 0.116.5+1.21.1",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 2424801,
+            "MD5": "9a59b61249144d39c0d93774d195527e",
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/gymiiTwJ/fabric-api-0.116.5%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "com.cobblemon:cobblemon:1.6.1+1.21.1",
+          "name": "Cobblemon",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 120710175,
+            "MD5": "cefe6ab687c39e1a7fe9b2bf96b09188",
+            "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar"
+          }
+        },
+        {
+          "id": "com.cobblemon:mega-showdown:10.0.7-release-fabric",
+          "name": "Cobblemon: Mega Showdown",
+          "version": "10.0.7-release-fabric",
+          "type": "FabricMod",
+          "artifact": {
+            "size": 16446828,
+            "MD5": "dfe08bfce6f93284ec07991d941a9b74",
+            "url": "https://cdn.modrinth.com/data/SszvX85I/versions/w178IQgY/Cobblemon_MegaShowdown-10.0.7-release-fabric.jar"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
-
-
-
-
-
