@@ -16,6 +16,11 @@
           "id": "fabric-0.15.7+1.21.1",
           "name": "Fabric Loader",
           "type": "Fabric",
+          "maven": {
+            "groupId": "net.fabricmc",
+            "artifactId": "fabric-loader",
+            "version": "0.15.7"
+          },
           "artifact": {
             "size": 1327275,
             "MD5": "13832fed8b4ba82a4dd000b4c4b2e429",
@@ -56,4 +61,5 @@
     }
   ]
 }
+
 
