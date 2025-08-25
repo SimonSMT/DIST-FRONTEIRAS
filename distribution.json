@@ -13,8 +13,8 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "fabric-loader-0.15.7",
-          "name": "Fabric Loader",
+          "id": "fabric-loader",
+          "name": "Fabric Loader 0.15.7",
           "type": "ModLoader",
           "maven": {
             "groupId": "net.fabricmc",
@@ -28,9 +28,14 @@
           }
         },
         {
-          "id": "fabric-api-0.116.5",
+          "id": "fabric-api",
           "name": "Fabric API 0.116.5",
           "type": "FabricMod",
+          "maven": {
+            "groupId": "net.fabricmc.fabric-api",
+            "artifactId": "fabric-api",
+            "version": "0.116.5+1.21.1"
+          },
           "artifact": {
             "size": 2424801,
             "MD5": "9a59b61249144d39c0d93774d195527e",
@@ -38,8 +43,8 @@
           }
         },
         {
-          "id": "cobblemon-1.6.1",
-          "name": "Cobblemon",
+          "id": "cobblemon",
+          "name": "Cobblemon 1.6.1",
           "type": "FabricMod",
           "artifact": {
             "size": 120710175,
@@ -48,8 +53,8 @@
           }
         },
         {
-          "id": "cobblemon-mega-showdown-10.0.7",
-          "name": "Cobblemon: Mega Showdown",
+          "id": "cobblemon-mega-showdown",
+          "name": "Cobblemon: Mega Showdown 10.0.7",
           "type": "FabricMod",
           "artifact": {
             "size": 16446828,
