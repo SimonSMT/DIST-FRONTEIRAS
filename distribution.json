@@ -1,11 +1,12 @@
 {
   "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
   "servers": [
     {
-      "id": "fronteiras-cobblemon",
+      "id": "fronteiras-cobblemon-1.21.1",
       "name": "Fronteiras Cobblemon",
-      "description": "Servidor Fronteiras Cobblemon =D",
-      "icon": "https://raw.githubusercontent.com/SimonSMT/DIST-FRONTEIRAS/main/fronteiras-cobblemon.png",
+      "description": "Servidor Fronteiras Cobblemon com Fabric + Cobblemon",
+      "icon": "https://simonsmt.github.io/fronteirasfiles/fronteiras-cobblemon.png",
       "version": "1.0.0",
       "address": "fc.enxada.host",
       "minecraftVersion": "1.21.1",
@@ -13,54 +14,63 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "fabric-loader",
-          "name": "Fabric Loader 0.15.7",
-          "type": "ModLoader",
-          "maven": {
-            "groupId": "net.fabricmc",
-            "artifactId": "fabric-loader",
-            "version": "0.15.7"
-          },
+          "id": "net.fabricmc:fabric-loader:0.16.12",
+          "name": "Fabric Loader (universal jar)",
+          "type": "ForgeHosted",
+          "classpath": false,
           "artifact": {
-            "size": 1327275,
-            "MD5": "13832fed8b4ba82a4dd000b4c4b2e429",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.15.7/fabric-loader-0.15.7.jar"
-          }
+            "size": 1519065,
+            "MD5": "3fc041c3b171c2dbf68291b9e13fae46",
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
+          },
+          "subModules": [
+            {
+              "id": "0.16.12",
+              "name": "Fabric Loader (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 4097,
+                "MD5": "b6ff13999a6d6c6e43c4f4ff62db96e3",
+                "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.json"
+              }
+            },
+            {
+              "id": "net.fabricmc:fabric-loader:0.16.12:client",
+              "name": "Fabric Loader (client jar)",
+              "type": "Library",
+              "classpath": false,
+              "artifact": {
+                "size": 1519065,
+                "MD5": "3fc041c3b171c2dbf68291b9e13fae46",
+                "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.16.12/fabric-loader-0.16.12.jar"
+              },
+              "subModules": []
+            }
+          ]
         },
         {
           "id": "fabric-api",
-          "name": "Fabric API 0.116.5",
-          "type": "FabricMod",
-          "maven": {
-            "groupId": "net.fabricmc.fabric-api",
-            "artifactId": "fabric-api",
-            "version": "0.116.5+1.21.1"
-          },
+          "name": "Fabric API",
+          "type": "Library",
+          "classpath": false,
           "artifact": {
             "size": 2424801,
             "MD5": "9a59b61249144d39c0d93774d195527e",
             "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/gymiiTwJ/fabric-api-0.116.5%2B1.21.1.jar"
-          }
+          },
+          "subModules": []
         },
         {
           "id": "cobblemon",
-          "name": "Cobblemon 1.6.1",
-          "type": "FabricMod",
+          "name": "Cobblemon",
+          "type": "Library",
+          "classpath": false,
           "artifact": {
             "size": 120710175,
             "MD5": "cefe6ab687c39e1a7fe9b2bf96b09188",
             "url": "https://cdn.modrinth.com/data/MdwFAVRL/versions/v77SHSXW/Cobblemon-fabric-1.6.1%2B1.21.1.jar"
-          }
-        },
-        {
-          "id": "cobblemon-mega-showdown",
-          "name": "Cobblemon: Mega Showdown 10.0.7",
-          "type": "FabricMod",
-          "artifact": {
-            "size": 16446828,
-            "MD5": "dfe08bfce6f93284ec07991d941a9b74",
-            "url": "https://cdn.modrinth.com/data/SszvX85I/versions/w178IQgY/Cobblemon_MegaShowdown-10.0.7-release-fabric.jar"
-          }
+          },
+          "subModules": []
         }
       ]
     }
