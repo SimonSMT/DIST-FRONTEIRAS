@@ -1,0 +1,6 @@
+{
+  "id": "fabric-api",
+  "name": "Fabric API",
+  "type": "Library",
+  "version": "0.116.5+1.21.1"
+}
