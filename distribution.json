@@ -3,12 +3,12 @@
   "rss": "<LINK TO RSS FEED>",
   "servers": [
     {
-      "id": "minecraft-fabric-1.21.1",
-      "name": "Minecraft Fabric",
-      "description": "Minecraft 1.21.1 com o carregador de mods Fabric.",
+      "id": "minecraft-vanilla-1.21.1",
+      "name": "Minecraft Vanilla",
+      "description": "Versão pura do Minecraft 1.21.1.",
       "icon": "https://cdn.atlasworld.fr/crafted/launcher/legacy/icon/logo.webp",
       "version": "1.21.1",
-      "address": "localhost:25565",
+      "address": "fc.enxada.host",
       "minecraftVersion": "1.21.1",
       "mainServer": true,
       "autoconnect": false,
@@ -18,31 +18,9 @@
           "name": "Minecraft Client 1.21.1",
           "type": "VersionManifest",
           "artifact": {
-            "size": 196886,
-            "MD5": "399a22495b42d76c66d790409a888c32",
-            "url": "https://piston-meta.mojang.com/v1/packages/23974c2e6f47702f267a1c726715f3a093ed03f5/1.21.1.json"
-          },
-          "subModules": []
-        },
-        {
-          "id": "net.fabricmc:fabric-loader:0.17.2",
-          "name": "Fabric Loader",
-          "type": "URL",
-          "artifact": {
-            "size": 191696,
-            "MD5": "d9860b2496a77d560c044238622146e2",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
-          },
-          "subModules": []
-        },
-        {
-          "id": "net.fabricmc.fabric-api:fabric-api:0.116.6+1.21.1",
-          "name": "Fabric API",
-          "type": "URL",
-          "artifact": {
-            "size": 2294621,
-            "MD5": "51ce818617d59858348633320f77d33b",
-            "url": "https://modrinth.com/mod/fabric-api/version/0.116.6%2B1.21.1/file/fabric-api-0.116.6%2B1.21.1.jar"
+            "size": 38408,
+            "MD5": "8B39010AF8C1DFA2ADBA046096E01F57",
+            "url": "https://piston-meta.mojang.com/v1/packages/0802493292eb060c2899a710c262a352068d4e36/1.21.1.json"
           },
           "subModules": []
         }
