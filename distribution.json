@@ -14,7 +14,7 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraft-client-1.21.1",
+          "id": "net.minecraft:client:1.21.1",
           "name": "Minecraft Client 1.21.1",
           "type": "VersionManifest",
           "artifact": {
@@ -25,7 +25,7 @@
           "subModules": []
         },
         {
-          "id": "net.fabricmc-fabric-loader-0.17.2",
+          "id": "net.fabricmc:fabric-loader:0.17.2",
           "name": "Fabric Loader",
           "type": "URL",
           "artifact": {
@@ -36,7 +36,7 @@
           "subModules": []
         },
         {
-          "id": "net.fabricmc.fabric-api-0.116.4+1.21.1",
+          "id": "net.fabricmc.fabric-api:fabric-api-0.116.4+1.21.1",
           "name": "Fabric API",
           "type": "URL",
           "artifact": {
