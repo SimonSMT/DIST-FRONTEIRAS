@@ -19,8 +19,8 @@
           "type": "VersionManifest",
           "artifact": {
             "size": 38408,
-            "MD5": "8B39010AF8C1DFA2ADBA046096E01F57",
-            "url": "https://piston-meta.mojang.com/v1/packages/0802493292eb060c2899a710c262a352068d4e36/1.21.1.json"
+            "url": "https://piston-meta.mojang.com/v1/packages/0802493292eb060c2899a710c262a352068d4e36/1.21.1.json",
+            "MD5": "8B39010AF8C1DFA2ADBA046096E01F57"
           },
           "subModules": []
         },
@@ -29,20 +29,20 @@
           "name": "Fabric Loader",
           "type": "URL",
           "artifact": {
-            "size": 1915305,
-            "MD5": "72DD698D701202D46303FC913CFCBF23",
-            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar"
+            "size": 191696,
+            "url": "https://maven.fabricmc.net/net/fabricmc/fabric-loader/0.17.2/fabric-loader-0.17.2.jar",
+            "MD5": "d9860b2496a77d560c044238622146e2"
           },
           "subModules": []
         },
         {
           "id": "net.fabricmc.fabric-api-0.116.4+1.21.1",
-          "name": "Fabric API 0.116.4",
+          "name": "Fabric API",
           "type": "URL",
           "artifact": {
-            "size": 2423497,
-            "MD5": "AA1660D1AF25EB18790182753F977615",
-            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar"
+            "size": 2292723,
+            "url": "https://cdn.modrinth.com/data/P7dR8mSH/versions/19viawBV/fabric-api-0.116.4%2B1.21.1.jar",
+            "MD5": "51ce818617d59858348633320f77d33b"
           },
           "subModules": []
         }
