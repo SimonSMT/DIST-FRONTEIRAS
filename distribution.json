@@ -14,7 +14,7 @@
       "autoconnect": false,
       "modules": [
         {
-          "id": "net.minecraft:client:1.21.1",
+          "id": "net.minecraft-client-1.21.1",
           "name": "Minecraft Client 1.21.1",
           "type": "VersionManifest",
           "artifact": {
@@ -28,3 +28,4 @@
     }
   ]
 }
+
